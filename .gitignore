@@ -1,0 +1,92 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs / IDE / OS
+.venv/
+venv/
+env/
+.env
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Streamlit cache
+.streamlit/
+
+# =============================================================
+# Large expanded 1-minute tick CSVs (keep the tarball, not the
+# extracted files).  Tarball is 38MB, OK to commit.
+# =============================================================
+data/exported_1m_csv/NVDA_1m.csv
+data/exported_1m_csv/AMZN_1m.csv
+data/exported_1m_csv/TXN_1m.csv
+
+# =============================================================
+# Intermediate data from deprecated iterations
+# (README 'Research journey' sections 1-3).  These are reproducible
+# and are not used by the final analysis.
+# =============================================================
+data/amzn_daily.csv
+data/qqq_daily.csv
+data/spy_daily.csv
+data/txn_daily.csv
+data/nvda_daily.csv
+data/nvda_intraday.csv
+data/outcomes_daily.csv
+data/events.csv
+
+# =============================================================
+# Stale figures from deprecated iterations
+# =============================================================
+figures/fig1_avol_by_type.png
+figures/fig1_car.png
+figures/fig1_rdd_amzn_dollar_vol.png
+figures/fig1_rdd_nvda_dollar_vol.png
+figures/fig2_avol_pooled.png
+figures/fig2_bandwidth_sensitivity.png
+figures/fig2_daily_ar.png
+figures/fig3_gap_amzn.png
+figures/fig3_gap_nvda.png
+figures/fig3_intraday_avol.png
+figures/fig3_lag_retail.png
+figures/fig3_rdd_bandwidths.png
+figures/fig4_caav_by_type.png
+figures/fig4_cross_lag.png
+figures/fig4_nvda_monthly_trajectory.png
+figures/fig4_price_markers.png
+figures/fig5_caav_by_type.png
+figures/fig5_did.png
+figures/fig5_placebo_dates.png
+figures/fig6_monthly_long.png
+figures/fig6_window_bars.png
+
+# =============================================================
+# Stale results from deprecated iterations
+# =============================================================
+results/did_*.csv
+results/event_study_*.csv
+results/index_*.csv
+results/intraday_event_*.csv
+results/intraday_lag_*.csv
+results/lag_regression.csv
+results/rdd_*.csv
+
+# =============================================================
+# Early-draft docx papers (keep only the two final ones)
+# =============================================================
+paper/NVDA_AMZN_道指纳入_案例.docx
+paper/NVDA_拆股RDD_案例.docx
+paper/NVDA_有限注意力_案例.docx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

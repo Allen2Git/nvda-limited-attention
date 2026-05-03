@@ -1,0 +1,74 @@
+{
+  "n_events": 24,
+  "date_range": [
+    "2020-05-21",
+    "2026-02-25"
+  ],
+  "MAIN_beta_open_1h": {
+    "coef": 0.0639,
+    "se": 0.2292,
+    "t": 0.28,
+    "p": 0.7805
+  },
+  "MAIN_beta_overnight": {
+    "coef": -0.0116,
+    "se": 0.0576,
+    "t": -0.2,
+    "p": 0.8403
+  },
+  "MAIN_R2": 0.0062,
+  "univar_open_1h_beta": {
+    "coef": 0.0623,
+    "se": 0.2221,
+    "t": 0.28,
+    "p": 0.779
+  },
+  "univar_overnight_beta": {
+    "coef": -0.0094,
+    "se": 0.0558,
+    "t": -0.17,
+    "p": 0.8663
+  },
+  "win30_beta_open_30m": {
+    "coef": 0.0832,
+    "se": 0.2791,
+    "t": 0.3,
+    "p": 0.7656
+  },
+  "placebo_beta_open_1h": {
+    "coef": 0.0394,
+    "se": 0.1751,
+    "t": 0.22,
+    "p": 0.8221
+  },
+  "placebo_n": 70,
+  "surprise_split_by_tercile": [
+    {
+      "tercile": "high",
+      "n": 8,
+      "mean_overnight": 0.037753526900010576,
+      "mean_open_1h": 0.0005698525953897861,
+      "mean_mid_day": -0.007794299211913755,
+      "mean_full_day": 0.030529080283486613,
+      "corr_open_mid": 0.21257592004601564
+    },
+    {
+      "tercile": "low",
+      "n": 8,
+      "mean_overnight": 0.015231085534058521,
+      "mean_open_1h": 0.0038020018088544393,
+      "mean_mid_day": -0.011427726238255345,
+      "mean_full_day": 0.007605361104657621,
+      "corr_open_mid": 0.4535148549439928
+    },
+    {
+      "tercile": "mid",
+      "n": 8,
+      "mean_overnight": 0.02347707286038813,
+      "mean_open_1h": -0.012553817102810817,
+      "mean_mid_day": -0.0005896203497482407,
+      "mean_full_day": 0.01033363540782907,
+      "corr_open_mid": -0.7115428531664213
+    }
+  ]
+}
